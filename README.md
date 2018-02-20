@@ -11,6 +11,7 @@ A sample usage/output would look like this:
 import * from lda.py
 
 lda(essay1.txt)
+
 0.3335
 
 This script was originally used for research done as part of a graduate seminar at Texas A&M University - Texarkana, and this research was subsequently presented at the Fall 2016 conference of the Arkansas Philological Association. 
