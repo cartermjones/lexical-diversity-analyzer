@@ -1,4 +1,4 @@
-***
+"""
 This script is used for generating a lexical diversity score for a .txt document. 
 "Lexical diversity" here refers to the variety of different words used in a text. 
 It is dependent on the Natural Language Toolkit (NLTK), which provides the tools I have used 
@@ -13,7 +13,7 @@ A sample usage/output would look like this:
 >>> lda(essay1.txt)
 0.3335
 
-***
+"""
 
 #This line imports the nltk library
 import nltk
