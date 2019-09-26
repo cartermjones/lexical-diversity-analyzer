@@ -1,20 +1,3 @@
-"""
-This script is used for generating a lexical diversity score for a .txt document. 
-"Lexical diversity" here refers to the variety of different words used in a text. 
-It is dependent on the Natural Language Toolkit (NLTK), which provides the tools I have used 
-to tokenize the text, i.e. create a list of each individual word or symbol used in the text. 
-The script then compares this list to the actual wordcount of the text, generating a score.
-In the study for which this script was written, lexical diversity scores ("D-Scores") for corpora of student 
-texts were collected and compared against the grades received in order to determine any correlations 
-between vocabulary usage and grading. 
-
-A sample usage/output would look like this: 
->>> import * from lda.py
->>> lda(essay1.txt)
-0.3335
-
-"""
-
 #This line imports the nltk library
 import nltk
 
